@@ -18,7 +18,7 @@ export default function Hero(props) {
   }
 
   return (
-    <section className="container pt-4">
+    <section className="container pt-4 pb-5">
       <div className="row align-items-center">
         <div className="col-auto pr-5" style={{ width: 520, height: 410 }}>
           <h1 className="font-weight-bold line-height-1 mb-3">
@@ -70,7 +70,7 @@ export default function Hero(props) {
                 </span>
               </h6>
             </div>
-            <div className="col-auto" style={{ marginRight: 32 }}>
+            <div className="col-auto">
               <img
                 src={IconCity}
                 alt={`${formatNumber(props.data.cities)} Cities`}
